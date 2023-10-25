@@ -52,7 +52,6 @@ let form = document.querySelector("#search-form");
 form.addEventListener("submit",submit);
 function showPosition(position) {
     console.log('Structure of position object:', position);
-    // Fetch the location name using reverse geocoding
     const reverseGeocodingURL = `https://api.openweathermap.org/geo/1.0/reverse?lat=${position.coords.latitude}&lon=${position.coords.longitude}&limit=1&appid=YOUR_OPENWEATHERMAP_API_KEY`;
 
   fetch(reverseGeocodingURL)
@@ -77,4 +76,3 @@ function showPosition(position) {
 
   let currentLocation = document.querySelector("#current-location");
   currentLocation.addEventListener("click", getCurrentPosition);
-  

@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: skyblue;
     
 }
 
@@ -69,4 +70,22 @@ button{
 }
 .container{
     background-color:gray;
+}
+.weather-forecast{
+    margin-top: 20px;
+    text-align: center;
+}
+.today-date{
+    margin-top: 15px;
+}
+.weather-forecast-temperatures{
+    font-size: 13px;
+}
+.weather-forecast-date{
+    font-size: 16px;
+    opacity: 0.5
+    ;
+}
+.weather-forecast-temperature-min{
+    opacity: 0.5;
 }
