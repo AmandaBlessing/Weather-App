@@ -1,10 +1,10 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color:skyblue;
+    
 }
 
 h1{
-    color: white;
+    color: black;
     font-size: 35px;
     font-weight: 100;
     line-height: 28px;
@@ -66,4 +66,7 @@ button{
     top: -34;
     
 
+}
+.container{
+    background-color:gray;
 }
