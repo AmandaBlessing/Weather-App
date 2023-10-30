@@ -12,8 +12,10 @@ function todaysDate(timestamp){
     let day = days[date.getDay()];
     return `${day} ${hours}:${minutes}`
 
-
 }
+//function displayForecast()
+
+
 
 
 
@@ -42,6 +44,8 @@ function search(city){
     axios.get(apiUrl).then(displayTemperature);
 
 }
+//displayForecast();
+
 
 function submit(event){
     event.preventDefault();

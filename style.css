@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: skyblue;
+    background-color:white;
     
 }
 
@@ -21,7 +21,7 @@ li{
     margin: 0;
     padding: 0;
     text-transform: capitalize;
-    color: white;
+    color: black;
     font-size: 15px;
     font-weight: 100;
     line-height: 15px;
@@ -69,11 +69,11 @@ button{
 
 }
 .container{
-    background-color:gray;
+    background-color:white;
 }
 .weather-forecast{
     margin-top: 20px;
-    text-align: center;
+    
 }
 .today-date{
     margin-top: 15px;
@@ -89,3 +89,4 @@ button{
 .weather-forecast-temperature-min{
     opacity: 0.5;
 }
+
